@@ -9,16 +9,17 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hello, my name is ',
+  name: 'Maxime',
+  subtitle: "I'm a web developer",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
+  img: 'maxbeach.jpg',
+  paragraphOne:
+    "Suite a mon diplome de Novancia Paris Business School, j'ai eu l'opportunité de partir vivre et travailler a l etranger, en Asie, plus précisément à Singapour.Durant ces 5 années d' expatriation, j' ai eu différentes expériences dans le domaine du marketing digital et advertising, dans plusieurs structures, allant aussi bien de la start up, avec Art of Click, à l' agence international, Mindshare, du groupe WPP. Depuis décembre 2020, je suis FS developer",
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
