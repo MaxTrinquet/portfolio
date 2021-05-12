@@ -12,17 +12,19 @@ export const heroData = {
   title: 'Hello, my name is ',
   name: 'Maxime',
   subtitle: "I'm a web developer",
-  cta: '',
+  cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'maxbeach.jpg',
   paragraphOne:
-    "Suite a mon diplome de Novancia Paris Business School, j'ai eu l'opportunité de partir vivre et travailler a l etranger, en Asie, plus précisément à Singapour.Durant ces 5 années d' expatriation, j' ai eu différentes expériences dans le domaine du marketing digital et advertising, dans plusieurs structures, allant aussi bien de la start up, avec Art of Click, à l' agence international, Mindshare, du groupe WPP. Depuis décembre 2020, je suis FS developer",
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+    'After my master degree at Novancia Paris Business School, I had the opportunity to move abroad, in Singapore. During those 5 years, I had different experiences, in two companies: Art of Click, a young Start- up, and Mindshare, an internationnal Agency from the WPP holding.',
+  paragraphTwo:
+    'I joined Le Wagon in febuary 2020. I was always interessed in coding and this was the perfect time and opportunity to do a career path switch.',
+  paragraphThree:
+    'After le Wagon, I move back to France, and keep learning by following web course or personal project.',
+  resume: 'https://www.resumemaker.online/esgaru.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -34,7 +36,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -58,9 +60,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Want to know more ? Awesome !',
+  btn: 'maxime.trinquet@gmail.com',
+  email: 'maxime.trinquet@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,28 +70,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/maxime-trinquet-a79b645b',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/MaxTrinquet',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
