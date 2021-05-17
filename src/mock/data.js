@@ -31,27 +31,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'This website ! ',
-    info:
-      'A classic Portfolio, inspired by Jacob Martinez, free to use on on "Start with Gatsby" and Served on AWS ',
-    info2:
-      "I've done some developemnts on it : dowloading a PDF, minor change on the UI, adding the different project and one part, 'Professional project' ",
-    url: '',
-    cta: 'Here ! ',
-    repo: 'http://github.com/MaxTrinquet/portfolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'Swoopin.jpg',
     title: 'Swoopin',
     info:
-      'Swoopin is an IMPACT technology company global provider of sustainable transportation and urban logistics services, with a highly integrated network of people, technology and urban physical assets. Swoopin is an equal opportunity employer that is committed to inclusion and diversity.',
-    info2: '',
+      'Swoopin is an impact technology company global provider of sustainable transportation and urban logistics services, with a highly integrated network of people, technology and urban physical assets.',
+    info2:
+      'I work on the Wharehouse Management System App, build from scratch in React Native, wtih MongoDB Realm and Tailwind. ',
     url: 'https://www.swoopin.green/',
     cta: 'Know more ',
     repo: '', // if no repo, the button will not show up
-    pro: 'PRO -les',
+    pro: 'PRO -',
   },
   {
     id: nanoid(),
@@ -63,6 +52,18 @@ export const projectsData = [
     url: '',
     cta: 'Coming Soon',
     repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'portfolio.jpg',
+    title: 'This website ! ',
+    info:
+      'A classic Portfolio, inspired by Jacob Martinez, free to use on on "Start with Gatsby" and Served on AWS ',
+    info2:
+      "I've done some developemnts on it : dowloading a PDF, minor change on the UI, adding the different project and some details.",
+    url: '',
+    cta: 'Here ! ',
+    repo: 'http://github.com/MaxTrinquet/portfolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
