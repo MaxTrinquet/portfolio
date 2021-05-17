@@ -32,29 +32,45 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'This website ! ',
+    info:
+      'A classic Portfolio, inspired by Jacob Martinez, free to use on on "Start with Gatsby" and Served on AWS ',
+    info2:
+      "I've done some developemnts on it : dowloading a PDF, minor change on the UI, adding the different project and one part, 'Professional project' ",
+    url: '',
+    cta: 'Here ! ',
+    repo: 'http://github.com/MaxTrinquet/portfolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Les recettes de nos mamies',
+    info:
+      'Recipe website. Idea is to share with your relative, or close friend the recipe that you cook and found delicious on the web.',
     info2: '',
     url: '',
+    cta: 'Coming Soon',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Pomodoro App ! ',
+    info: "I didn't find what I was looking for on the Appstore... So I decide to build it.",
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    cta: 'Coming Soon',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Reading List ',
+    info: 'Share your reading easily, track and reminder old good books. ',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    cta: 'Coming Soon',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
