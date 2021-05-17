@@ -11,9 +11,8 @@ const Contact = () => {
 
   const [copied, setCopied] = useState(false);
 
-  const copyAlert = () => {
-    setCopied(false);
-    return <p>Successfully copied to clipboard ! </p>;
+  const CopyClipboard = () => {
+    return <p className="text-clipboard">Successfully copied to the clipboard !</p>;
   };
 
   return (
@@ -26,7 +25,7 @@ const Contact = () => {
             <CopyToClipboard text={email} onCopy={() => setCopied(true)}>
               <p className="contact-wrapper__text cta-btn cta-btn--resume">{btn}</p>
             </CopyToClipboard>
-            <p className="text-clipboard">{copied ? copyAlert() : null}</p>
+            {copied ? CopyClipboard() : null}
           </div>
         </Fade>
       </Container>
