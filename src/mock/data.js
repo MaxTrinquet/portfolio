@@ -43,7 +43,19 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'Swoopin.jpg',
+    title: 'Swoopin',
+    info:
+      'Swoopin is an IMPACT technology company global provider of sustainable transportation and urban logistics services, with a highly integrated network of people, technology and urban physical assets. Swoopin is an equal opportunity employer that is committed to inclusion and diversity.',
+    info2: '',
+    url: 'https://www.swoopin.green/',
+    cta: 'Know more ',
+    repo: '', // if no repo, the button will not show up
+    pro: 'PRO -les',
+  },
+  {
+    id: nanoid(),
+    img: 'lrdnm.jpg',
     title: 'Les recettes de nos mamies',
     info:
       'Recipe website. Idea is to share with your relative, or close friend the recipe that you cook and found delicious on the web.',
